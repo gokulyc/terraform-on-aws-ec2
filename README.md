@@ -150,7 +150,12 @@
 - [Exam Review Guide](https://learn.hashicorp.com/tutorials/terraform/associate-review?in=terraform/certification)
 - [Sample Questions](https://learn.hashicorp.com/tutorials/terraform/associate-questions?in=terraform/certification)
 
+# Debug
 
-
-
+```bash
+    set TF_LOG_PATH=./terraform-debug.log
+    set TF_LOG="DEBUG"
+    set TF_LOG_PATH=./terraform-debug.log&& set TF_LOG=DEBUG&& terraform plan
+    echo %TF_LOG%
+```
 
