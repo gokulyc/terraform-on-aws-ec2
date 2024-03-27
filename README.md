@@ -159,3 +159,13 @@
     echo %TF_LOG%
 ```
 
+```bash
+  terraform apply -target=aws_instance.my_instance
+
+  terraform refresh # add state file with updated data with out creating resource
+
+  terraform output -raw out1
+
+  terraform output -json out1
+```
+
